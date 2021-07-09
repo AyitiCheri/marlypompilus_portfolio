@@ -12,7 +12,7 @@ h1{
   color: black;
   font-size: 36px;
 }
-
+/* Photo settings */
 img{
   width: 500px;
   display: block;
@@ -52,6 +52,8 @@ ul{
   text-align: left;
 }
 
+/* Formatting the numbered list to align with heading*/
+
 ol{
   color:#6d6d6d;
   font-family: 'Shadows Into Light', cursive;
@@ -83,6 +85,8 @@ hr{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* Creating a border for my information*/ 
 
 main > div > article > section {
   margin-left: -200%;
