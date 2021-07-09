@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{
+  margin: 0;
+  background-color: aliceblue;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Shadows Into Light', cursive;
+  color: black;
+  font-size: 36px;
+}
+
+img{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+
+}
+.image-circle{
+  border-radius: 50%;
+  border: 6px dashed #000000;
+}
+
+
+h2{
+  text-align:center;
+  font-family: 'Shadows Into Light', cursive;
+  color: #2c2b2b;
+  font-size: 30px;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color:#424242;
+  font-size: 24px;
+}
+
+p{
+  color: #6d6d6d;
+  font-size: 18px;
+  text-align: left
+}
+
+ul{
+  color:#6d6d6d;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:18px;
+  text-align: left;
+}
+
+ol{
+  color:#6d6d6d;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:18px;
+  text-align: justified;
+  padding: 5px 250px
+}
+
+.list-inside li{
+  list-style-position: inside;
+}
+
+main > div >  header > h2, 
+main > div >  p, 
+footer > div > p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  overflow-wrap: break-word;
+}
+
+main > div {
+  overflow: visible;
+}
+
+hr{
+  border: 4px #000000 dashed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main > div > article > section {
+  margin-left: -200%;
+  width: 500%;
+  border-bottom: 6px dashed #000000;
+}
+
+main > div > article > section:last-child {
+  border-bottom: none;
+}
+
+header > div > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+div {
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
+
+
+main > div {
+  overflow: hidden;
+  border: 6px dashed #000000;
+  padding: 10px;
+  ;
+}
+
+footer > div > p {
+  color: #407380;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 16px;
+}
